@@ -8,7 +8,7 @@ const MusicPlayer: React.FC = () => {
 
   useEffect(() => {
     // You'd replace this with an actual calming lofi music URL
-    audioRef.current = new Audio('/dil-meri-na-sune-genius-320-kbps_IFBHc7mx.mp3');
+    audioRef.current = new Audio('/desi-girl-dostana-original-motion-picturetrack-320-kbps_lRdizF2c.mp3');
     audioRef.current.loop = true;
     audioRef.current.volume = 0.3;
     return () => {
